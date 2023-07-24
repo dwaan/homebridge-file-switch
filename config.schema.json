@@ -1,0 +1,49 @@
+{
+  "pluginAlias": "fileSwitchPlatform",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "Homebridge plugin for observing and writing a file",
+  "footerDisplay": "For more information, see the [README](https://github.com/dwaan/homebridge-file-switch/blob/master/README.md)",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "accessories": {
+        "title": "Accessories",
+        "type": "array",
+        "required": true,
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of the accessory.",
+              "minLength": 3,
+              "required": true
+            },
+            "file": {
+              "type": "string",
+              "description": "The path to the file to monitor and control.",
+              "minLength": 5,
+              "required": true
+            },
+            "onValue": {
+              "type": "string",
+              "description": "The value to write to the file when the switch is turned ON.",
+              "default": "true"
+            },
+            "offValue": {
+              "type": "string",
+              "description": "The value to write to the file when the switch is turned OFF.",
+              "default": "false"
+            }
+          }
+        }
+      },
+      "debug": {
+        "type": "boolean",
+        "title": "Extra debug messages",
+        "default": "false"
+      }
+    }
+  }
+}

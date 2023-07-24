@@ -1,0 +1,34 @@
+{
+  "name": "homebridge-file-switch",
+  "version": "0.0.1",
+  "description": "Homebridge Switch plugins that read and write file",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm link && nodemon",
+    "test": "npm link && homebridge -I -D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwaan/homebridge-file-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwaan/homebridge-file-switch/issues"
+  },
+  "homepage": "https://github.com/dwaan/homebridge-file-switch#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge"
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "homebridge": ">=1.3.0"
+  },
+  "author": "Dwan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "homebridge-lib": "^6.4.0"
+  }
+}
