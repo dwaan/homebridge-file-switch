@@ -4,7 +4,7 @@ Observer and write a (text) file and display it as switch accessory in Home app.
 
 ## Requirements
 
-- [Homebridge](https://github.com/nfarina/homebridge) HomeKit support for the impatient
+- [Homebridge](https://github.com/homebridge/homebridge) HomeKit support for the impatient
 - A text file that can be read and modify by this plugin
 
 ## Example config
