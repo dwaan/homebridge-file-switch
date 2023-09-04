@@ -2,7 +2,7 @@ var Service, Characteristic;
 
 const fs = require('fs');
 
-const PLUGIN_NAME = 'homebridge-file-swwitch';
+const PLUGIN_NAME = 'homebridge-file-switch';
 const PLATFORM_NAME = 'fileSwitchPlatform';
 
 class fileSwitchPlatform {

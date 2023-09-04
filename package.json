@@ -1,6 +1,6 @@
 {
   "name": "homebridge-file-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Homebridge Switch plugins that read and write file",
   "main": "index.js",
   "scripts": {
